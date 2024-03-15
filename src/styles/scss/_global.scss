@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+//Globales
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(134,132,132);
+    display: inline-block;
+}
+
+img{
+    max-width: 80%;
+    height: auto;
+}
+
+h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+
+
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
+  //Variables
+
+    $font-p:1.8 rem;
+    $font-h1:3.0rem;
+    $font-h2:2.4rem;
+    $font-h3:2.0rem;
+
+    p{
+        font-size: $font-p;
+        color: rgb(134,132,132);
+    }
+
+    h2{
+        font-size: $font-h2;
+    }
+
+    h3{
+        font-size: $font-h3;
+        font-weight: lighter;
+    }
+
+
+    .btn{
+        border:none;
+        border-radius: 2px;
+        padding: 0.7em 1.5em;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+        font-weight: 500;       
+    }
+
+    .btn-principal{
+        @extend .btn;
+        color: #fff;
+        background-color: #6495ed;
+    }
+
+    
+
+
+
+    
+
+
+
